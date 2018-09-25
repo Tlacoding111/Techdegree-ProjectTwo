@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: purple;
+    background-color: white;
 }
 
 
@@ -81,4 +81,30 @@ h3 {
 
 .port-images:hover {
     border-color: lightblue;
+}
+
+/*===========Footer===============*/
+
+.main-footer {
+    background-color: skyblue;
+    padding: 10px 20px;
+}
+
+.firstFooterHalf {
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.firstFooterHalf a:link {
+    color: orange;
+}
+
+.firstFooterHalf a:hover{
+    color: blue;
+}
+
+.firstFooterHalf a:visited{
+    color: orange;
 }
