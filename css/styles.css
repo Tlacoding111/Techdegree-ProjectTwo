@@ -55,19 +55,27 @@ nav a {
 
 /*===========Main===============*/
 
+h3 {
+    color: black;
+    font-size: 2em;
+}
+
 .container-portf {
     background-color: gray;
     color: white;
     text-align: center;
 
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.container-portf p {
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .port-images {
     width: 100%;
-    margin: 0 auto;
-
     border: 5px solid black;
 }
 
