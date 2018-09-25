@@ -13,8 +13,9 @@ body {
 .main-header {
     background-color:pink;
     margin: 0 auto;
-
     border: 3px solid yellow;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h1 {
@@ -25,25 +26,23 @@ h1 {
 
 .name {
     color: blue;
+    margin-top: 0;
 }
 
-nav li {
-    list-style-type: none;
-}
-
-nav a {
-    background-color: white;
-    font-weight: bold;
-    padding: 10px;
-
-    display: inline-block;
-}
-
-.name {
+li {
     text-align: center;
+    list-style-type: none;
+    font-size: 1em;
+    margin: 40px 0;
 }
 
-
+.name, 
+nav li a {
+    text-align: center;
+    background-color: white;
+    padding: 10px 15px;
+    
+}
 
 /*===========Main===============*/
 
@@ -107,7 +106,7 @@ h3 {
 /*===========Media Queries===============*/
 
 @media (min-width: 768px) {
-    
+       
     }
 
 
