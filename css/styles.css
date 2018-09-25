@@ -5,13 +5,17 @@
 }
 
 body {
-    background-color: blue;
+    background-color: gray;
 }
 
+ul {
+    list-style: none;
+    padding: 0;  
+  }
 
 /*===========Main Header===============*/
 .main-header {
-    background-color:darkblue;
+    background-color:lightblue;
     margin: 0 auto;
     border: 3px solid yellow;
     padding: 10px;
@@ -41,6 +45,12 @@ nav li {
     background-color: white;
     padding: 10px 15px;
 }
+
+/*===========Second Section===============*/
+/* .profilePic {
+    float: right;
+} */
+
 
 /*===========Main===============*/
 
@@ -75,7 +85,8 @@ h3 {
 /*===========Footer===============*/
 
 .main-footer {
-    background-color: skyblue;
+    background-color: lightblue;
+    border: 3px solid yellow;
     padding: 10px 20px;
 }
 
@@ -85,7 +96,7 @@ h3 {
     line-height: 1.5;
     font-size: 20px;
 
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid black;
 }
 
 .firstFooterHalf a:link {
@@ -100,7 +111,28 @@ h3 {
     color: orange;
 }
 
+.studentName {
+    float: left;
+    margin: 0;
+}
 
+.toTop {
+    text-align: right;
+}
+
+.toTop a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.toTop a:visited {
+    color: black;
+}
+
+
+.toTop a:hover {
+    color: blue;
+}
 /*===========Media Queries===============*/
 
 @media (min-width: 768px) {
@@ -121,14 +153,7 @@ h3 {
     }
     .main-nav{
         float: right;
-        margin-top: 25px;
-    }
-
-    .clearfix::after {
-        content: " ";
-        display: table;
-        clear: both;
-      
+        margin-top: 30px;
     }
 
     .toTop {
@@ -136,13 +161,33 @@ h3 {
     }
 
     .studentName {
+        font-size: 2em;
         float: left;
+        margin-top: 40px;
+    }
+
+    .footerNav {
+        margin-top: -20px;
+    }
+
+    .work {
+        width: 50%;
+        float: left;
+    }
+
+    clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+      
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .work {
-        width: 10%;
+        width: 33%;
+        float: left;
+        padding-right: 20px;
     }
 }
 
