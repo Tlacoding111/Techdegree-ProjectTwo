@@ -11,7 +11,7 @@ body {
 
 /*===========Main Header===============*/
 .main-header {
-    background-color:pink;
+    background-color:darkblue;
     margin: 0 auto;
     border: 3px solid yellow;
     padding: 10px;
@@ -115,6 +115,10 @@ h3 {
         margin-top: 15px;
     }
 
+    .name,
+    nav li {
+        border: 5px solid green;
+    }
     .main-nav{
         float: right;
         margin-top: 25px;
@@ -125,6 +129,20 @@ h3 {
         display: table;
         clear: both;
       
+    }
+
+    .toTop {
+        visibility: hidden;
+    }
+
+    .studentName {
+        float: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .work {
+        width: 10%;
     }
 }
 
