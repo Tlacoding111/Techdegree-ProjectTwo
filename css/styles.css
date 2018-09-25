@@ -15,7 +15,10 @@ ul {
 
 /*===========Main Header===============*/
 .main-header {
-    background-color:darkblue;
+    background:
+    linear-gradient(transparent, whitesmoke 95%),
+        url(../images/newYorkCity.jpg);
+    background-size: cover;
     margin: 0 auto;
     border: 3px solid yellow;
     padding: 10px;
@@ -28,7 +31,7 @@ h1 {
 /*===========Navigation===============*/
 
 .name {
-    color: blue;
+    color: white;
     margin-top: 0;
 }
 
@@ -42,8 +45,12 @@ li {
 .name, 
 nav li {
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     padding: 10px 15px;
+}
+
+nav li a:visited {
+    color: white;
 }
 
 /*===========Second Section===============*/
@@ -85,7 +92,9 @@ h3 {
 /*===========Footer===============*/
 
 .main-footer {
-    background-color: darkblue;
+    background: 
+        linear-gradient(transparent, orange 95%),
+        url(../images/cityViewOne.jpg);
     border: 3px solid yellow;
     padding: 10px 20px;
 }
@@ -133,6 +142,10 @@ h3 {
 .toTop a:hover {
     color: blue;
 }
+
+h4 {
+    font-size: 20px;
+}
 /*===========Media Queries===============*/
 
 @media (min-width: 768px) {
@@ -149,7 +162,7 @@ h3 {
 
     .name,
     nav li {
-        border: 5px solid green;
+        border: 3px solid white;
     }
     .main-nav{
         float: right;
@@ -163,7 +176,7 @@ h3 {
     .studentName {
         font-size: 2em;
         float: left;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .footerNav {
@@ -173,6 +186,11 @@ h3 {
     .work {
         width: 50%;
         float: left;
+    }
+
+    .main-footer,
+    .main-header {
+        background: linear-gradient(orange,red);
     }
 
     .clearfix::after {
