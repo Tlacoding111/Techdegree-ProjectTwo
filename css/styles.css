@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: red;
 }
 
 ul {
@@ -15,7 +15,7 @@ ul {
 
 /*===========Main Header===============*/
 .main-header {
-    background-color:lightblue;
+    background-color:darkblue;
     margin: 0 auto;
     border: 3px solid yellow;
     padding: 10px;
@@ -60,7 +60,7 @@ h3 {
 }
 
 .container-portf {
-    background-color: gray;
+    background-color: red;
     color: white;
     text-align: center;
 
@@ -85,7 +85,7 @@ h3 {
 /*===========Footer===============*/
 
 .main-footer {
-    background-color: lightblue;
+    background-color: darkblue;
     border: 3px solid yellow;
     padding: 10px 20px;
 }
@@ -167,7 +167,7 @@ h3 {
     }
 
     .footerNav {
-        margin-top: -20px;
+        margin-top: -50px;
     }
 
     .work {
@@ -175,7 +175,7 @@ h3 {
         float: left;
     }
 
-    clearfix::after {
+    .clearfix::after {
         content: " ";
         display: table;
         clear: both;
