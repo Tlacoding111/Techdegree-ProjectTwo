@@ -29,6 +29,22 @@ h1 {
     color: black;
 }
 
+/*===========Second Section===============*/
+
+.second-section {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 20px;
+}
+
+.profilePic {
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 auto;
+}
+
 /*===========Navigation===============*/
 
 .name {
@@ -88,6 +104,9 @@ h3 {
 .port-images:hover {
     border-color: lightblue;
 }
+
+
+/*===========Skills===============*/
 
 /*===========Footer===============*/
 
@@ -192,6 +211,15 @@ h4 {
     .main-footer,
     .main-header {
         background: linear-gradient(orange,red);
+    }
+
+    .profilePic {
+        float:right;
+    }
+
+    .second-section{
+        float: left;
+        font-size: 1.5em;
     }
 
     .clearfix::after {
