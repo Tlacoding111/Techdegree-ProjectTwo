@@ -87,7 +87,18 @@ h3 {
     font-size: 2em;
 }
 
-.container-portf {
+#skills {
+    margin-bottom: 70px;
+}
+
+#skills,
+#portfolio {
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.container-portf,
+.container-skills {
     background-color: red;
     color: white;
     text-align: center;
@@ -96,22 +107,31 @@ h3 {
     margin-top: 30px;
 }
 
-.container-portf p {
+.container-portf p,
+.container-skills p {
     font-size: 20px;
     line-height: 1.5;
 }
 
-.port-images {
-    width: 100%;
+.port-images,
+.skills-images {
     border: 5px solid black;
 }
 
-.port-images:hover {
+.port-images:hover,
+.skills-images:hover {
     border-color: lightblue;
 }
 
+.port-images {
+    width: 100%;
+}
 
-/*===========Skills===============*/
+.skills-images {
+    height: 150px;
+    width: 150px;
+}
+
 
 /*===========Footer===============*/
 
@@ -213,6 +233,11 @@ h4 {
         float: left;
     }
 
+    #leader {
+        width: 100%;
+        margin-top: 20px;
+    }
+
     .main-footer,
     .main-header {
         background: linear-gradient(orange,red);
@@ -236,10 +261,20 @@ h4 {
 }
 
 @media (min-width: 1024px) {
-    .work {
+
+    .work,
+    #leader {
         width: 33%;
         float: left;
         padding-right: 20px;
+    }
+
+    #skillsTwo {
+        width: 50%;
+    }
+
+    #leader {
+        margin-top: 0;
     }
 }
 
