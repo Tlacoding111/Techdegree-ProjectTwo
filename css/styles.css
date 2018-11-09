@@ -98,12 +98,28 @@ h3 {
     text-decoration: underline;
 }
 
+.content {
+    perspective: 700px;
+}
+
+.top {
+    transition: transform 1s ease-out;
+}
+
+.top:hover {
+    transform: rotate3d(1, 0, 0, 180deg);
+}
+
+.side-b {
+    z-index: 100;
+}
+
 .container-portf,
 .container-skills {
     background-color: dodgerblue;
     color: white;
     text-align: center;
-
+    
     padding: 10px 20px;
     margin-top: 30px;
 }
@@ -132,7 +148,6 @@ h3 {
     height: 150px;
     width: 150px;
 }
-
 
 /*===========Footer===============*/
 
